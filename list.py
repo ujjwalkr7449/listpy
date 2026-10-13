@@ -21,3 +21,11 @@ numbers = [10, 20, 30]
 
 for num in numbers:
     print(num)
+    
+numbers = [1, 2, 3, 4]
+total = 0
+
+for num in numbers:
+    total += num
+
+print("Sum:", total)
