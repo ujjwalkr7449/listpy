@@ -113,3 +113,13 @@ if second_largest == float("-inf"):
     print("No second-largest distinct number")
 else:
     print("Second largest:", second_largest)
+    
+    
+numbers = [1, 2, 2, 3, 1, 4]
+unique = []
+
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+
+print(unique)
