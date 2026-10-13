@@ -137,3 +137,22 @@ for num in numbers:
         frequency[num] = 1
 
 print(frequency)
+
+
+numbers = [-2, 3, -1, 4, 0, 5]
+
+positive = []
+negative = []
+zeros = []
+
+for num in numbers:
+    if num > 0:
+        positive.append(num)
+    elif num < 0:
+        negative.append(num)
+    else:
+        zeros.append(num)
+
+print("Positive:", positive)
+print("Negative:", negative)
+print("Zeros:", zeros)
