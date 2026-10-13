@@ -92,3 +92,24 @@ for num in numbers:
         smallest = num
 
 print("Smallest:", smallest)
+
+
+
+
+
+numbers = [10, 5, 20, 20, 8]
+
+largest = float("-inf")
+second_largest = float("-inf")
+
+for num in numbers:
+    if num > largest:
+        second_largest = largest
+        largest = num
+    elif num > second_largest and num < largest:
+        second_largest = num
+
+if second_largest == float("-inf"):
+    print("No second-largest distinct number")
+else:
+    print("Second largest:", second_largest)
