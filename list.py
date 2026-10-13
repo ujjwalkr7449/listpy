@@ -124,7 +124,7 @@ for num in numbers:
 
 print(unique)
 
-
+#11. Separate positive and negative numbers
 
 
 numbers = [1, 2, 1, 3, 2, 1]
