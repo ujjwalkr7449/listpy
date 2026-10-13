@@ -113,7 +113,7 @@ if second_largest == float("-inf"):
     print("No second-largest distinct number")
 else:
     print("Second largest:", second_largest)
-    
+#10. Count the frequency of each element
     
 numbers = [1, 2, 2, 3, 1, 4]
 unique = []
