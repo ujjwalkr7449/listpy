@@ -14,3 +14,10 @@ fruits.append("orange")
 fruits.remove("banana")
 
 print(fruits)
+
+# Loop through the list
+
+numbers = [10, 20, 30]
+
+for num in numbers:
+    print(num)
