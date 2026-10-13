@@ -81,3 +81,14 @@ if found:
     print("Found")
 else:
     print("Not found")
+    
+    
+numbers = [4, 2, 8, 1, 6]
+
+smallest = numbers[0]
+
+for num in numbers:
+    if num < smallest:
+        smallest = num
+
+print("Smallest:", smallest)
