@@ -65,3 +65,19 @@ for i in range(len(numbers) - 1, -1, -1):
     reversed_list.append(numbers[i])
 
 print(reversed_list)
+
+
+numbers = [10, 20, 30, 40]
+target = 30
+
+found = False
+
+for num in numbers:
+    if num == target:
+        found = True
+        break
+
+if found:
+    print("Found")
+else:
+    print("Not found")
