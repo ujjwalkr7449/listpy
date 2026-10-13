@@ -157,7 +157,7 @@ print("Positive:", positive)
 print("Negative:", negative)
 print("Zeros:", zeros)
 
-
+#12. Move all zeros to the end
 numbers = [0, 1, 0, 3, 12]
 
 result = []
